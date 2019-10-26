@@ -5,9 +5,9 @@ function gerarInterintroaleatorio(min, max) {
 }
 
 let opcao = 0
+ do {
 
-while (opcao != -1) {
     opcao = gerarInterintroaleatorio(-1, 10)
-        console.log('A Opção Escolhida Foi: ', opcao)
-}
+    console.log('A Opção Escolhida Foi: ', opcao)
+}   while (opcao != -1)
 console.log('Até a Proxima!')
